@@ -15,5 +15,6 @@ Linux
 - sudo apt-get install python3-libtorrent
 - pip install python-libtorrent
 - 
-
+Para o executor
+pip install schedule
 
