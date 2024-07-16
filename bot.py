@@ -19,7 +19,7 @@ if not os.path.exists(torrents_directory):
 
 def get_new_movies():
     options = Options()
-    options.headless = False  # True para rodar sem abrir a janela do navegador
+    options.headless = True  # True para rodar sem abrir a janela do navegador
 
     service = FirefoxService(executable_path=GeckoDriverManager().install())
     driver = webdriver.Firefox(service=service, options=options)
