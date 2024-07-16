@@ -15,7 +15,7 @@ def schedule_task(script_path, interval):
     print(f"Script agendado para ser executado a cada {interval} minutos.")
 
 # Caminho do script ou programa que você deseja executar
-script_path = "C:\\Users\\jeffe\\AppData\\Local\\Programs\\TikTok Music\\TikTok Music Launcher.exe"
+script_path = "bot.py"
 
 # Defina o intervalo de tempo em minutos
 interval = 1# Por exemplo, 60 minutos
@@ -27,4 +27,6 @@ schedule_task(script_path, interval)
 while True:
     schedule.run_pending()
     time.sleep(1)
+
+
 
