@@ -1,5 +1,11 @@
 #Este Bot tem o intuito de buscar links magnet, coletando filmes na qualidade 1080p que são inseridos no site.
 
+
+#python -m venv projTor
+#projTor\Scripts\activate
+#deactivate  -- destaiva o venv
+
+
 #Requisitos:
 -Sistema operacional Linux ou Windows
 - Python 3 >
